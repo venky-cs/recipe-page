@@ -1,234 +1,230 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.container{
-    width: 70%;
-    margin:0 auto;
+.container {
+  width: 70%;
+  margin: 0 auto;
 }
 
-p{
-    font-size: 14px;
-    font-weight: 500;
-    font-style: italic;
-    font-family: 'Montserrat', sans-serif;
+p {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.header{
-    margin: 30px;
+.header {
+  margin: 30px;
 }
-.title h1{
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-size: 48px;
-    padding: 20px 0;
+.title h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 48px;
+  padding: 20px 0;
 }
-.sub img,.instruct_num,.checkbox input{
-    margin-right: 8px;
+.sub img,
+.instruct_num,
+.checkbox input {
+  margin-right: 8px;
 }
-.sub p{
-    line-height: 1.2em;
-    padding: 10px 0 30px 0;
+.sub p {
+  line-height: 1.2em;
+  padding: 10px 0 30px 0;
 }
-.image img{
-    width: 100%;
+.image img {
+  width: 100%;
 }
-.ingredient{
-    width: 90%;
-    margin: auto;
-}
-
-.ingredient .left{
-    float: left;
-    width: 65%;
+.ingredient {
+  width: 90%;
+  margin: auto;
 }
 
-.ingredient .right{
-    float: right;
-    width: 30%;
-}
-.right .card{
-    width: 85%;
-    margin: auto;
-    box-shadow: 0 0 20px rgba(0,0,0,.1);
-    border-radius:12px;
-    padding:30px 10px;
-}
-.card .box{
-    display: flex;
-    padding: 18px;
-    align-items: center;
-    justify-content: center;
-}
-.box .icon{
-    padding-right: 10px;
-}
-.box .content h5{
-    font-family: 'Montserrat', serif;
-    color: grey;
-    font-weight: 700;
-    font-size: 10px;
-    text-transform: uppercase;
-}
-.box .content p{
-    font-family: 'Montserrat', serif;
-    font-weight: 500;
-    font-size: 14px;
-    font-style: normal;
+.ingredient .left {
+  float: left;
+  width: 65%;
 }
 
-.card .box:first-child .icon{
-    color:orange
+.ingredient .right {
+  float: right;
+  width: 30%;
 }
-.card .box:first-child .content p{
-    color:orange
+.right .card {
+  width: 85%;
+  margin: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 30px 10px;
 }
-
-
-.sub-title h2{
-     font-family: 'Playfair Display', serif;
-     font-weight: 700;
-     font-size: 24px;
-    margin: 30px 0;
+.card .box {
+  display: flex;
+  padding: 18px;
+  align-items: center;
+  justify-content: center;
 }
-.sub-body> p{
-    font-family: 'Playfair Display',
-    serif;
-    font-weight: 400;
-    font-size: 18px;
-    margin: 20px 0;
-    font-size: 18px;
+.box .icon {
+  padding-right: 10px;
 }
-
-.sub-body .checkbox{
-    display: flex;
-    padding: 15px;
+.box .content h5 {
+  font-family: 'Montserrat', serif;
+  color: grey;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
 }
-
-.checkbox p{
-    font-family: 'Montserrat',
-    sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
+.box .content p {
+  font-family: 'Montserrat', serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
 }
 
-.clear{
-    clear:both;
+.card .box:first-child .icon {
+  color: orange;
+}
+.card .box:first-child .content p {
+  color: orange;
 }
 
-.container .main .instruction{
-    width: 90%;
-    margin:0 auto;
+.sub-title h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 30px 0;
+}
+.sub-body > p {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 20px 0;
+  font-size: 18px;
 }
 
-.sub-body .instruct_box{
-    display: flex;
-    margin: 50px 0;
+.sub-body .checkbox {
+  display: flex;
+  padding: 15px;
 }
-.instruct_box .instruct_num{
-    width: 50px;
-    height: 40px;
-    padding: 10px 20px;
-    font-size: 20px;
-    color: white;
-    background-color: rgb(236, 184, 86);
-    border-radius: 8px;
+
+.checkbox p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.clear {
+  clear: both;
+}
+
+.container .main .instruction {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sub-body .instruct_box {
+  display: flex;
+  margin: 50px 0;
+}
+.instruct_box .instruct_num {
+  width: 50px;
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(236, 184, 86);
+  border-radius: 8px;
 }
 
 .instruct_box p {
-    font-family: 'Montserrat',
-    sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
 
-.source{
+.source {
+  font-size: 14px;
+  color: grey;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  br {
+    display: none;
+  }
+  .title h1 {
+    font-size: 24px;
+  }
+  p {
     font-size: 14px;
-    color: grey;
-}
-
-footer p{
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Montserrat',serif;
-    font-weight: 600;
-    font-style: normal;
-}
-
-
-@media (max-width:768px){
-    .container{
-        width: 100%;
-    }
-    br{
-        display: none;
-    }
-    .title h1{
-        font-size: 24px;
-    }
-    p{
-        font-size: 14px;
-    }
-    .left,.right{
-        width: 100% !important;
-    }
-    .ingredient{
-        display: flex;
-        flex-direction: column;
-    }
-    .ingredient .right{
-        width: 100%;
-    }
-    .right .card{
-        display: flex;
-        flex-direction: row;
-        border: none;
-        box-shadow: none !important;
-        align-items: stretch;
-        justify-content: space-around;
-        width: 100%;
-    }
-    .box{
-        /* flex-wrap: wrap;
+  }
+  .left,
+  .right {
+    width: 100% !important;
+  }
+  .ingredient {
+    display: flex;
+    flex-direction: column;
+  }
+  .ingredient .right {
+    width: 100%;
+  }
+  .right .card {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    box-shadow: none !important;
+    align-items: stretch;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .box {
+    /* flex-wrap: wrap;
         flex-shrink: inherit; */
-        padding: 35px;
-    }
-    .box .content h5 {
-        font-size: 16px;
-        text-transform: uppercase;
-    }
+    padding: 35px;
+  }
+  .box .content h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
 
-    .box .content p {
-        font-size: 14px;
-    }
-    .card .box:first-child{
+  .box .content p {
+    font-size: 14px;
+  }
+  .card .box:first-child {
     width: 100% !important;
     position: absolute;
     top: 530px;
     right: 230px;
-}
+  }
 }
 
-@media (max-width:480px){
-    .right .card .box:first-child{
-        top: 410px;
-        right: 100px;
-    }
-    .card .box{
-        padding:30px 10px;
-    }
-    .box .content h5{
-        font-weight: 100;
-        font-size: 8px;
-    }
-    .box .content p{
-        font-size: 10px;
-    }
-
+@media (max-width: 480px) {
+  .right .card .box:first-child {
+    top: 410px;
+    right: 100px;
+  }
+  .card .box {
+    padding: 30px 10px;
+  }
+  .box .content h5 {
+    font-weight: 100;
+    font-size: 8px;
+  }
+  .box .content p {
+    font-size: 10px;
+  }
 }
